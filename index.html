@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS ksad</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">   
+    <script src="https://cdn.anychart.com/releases/8.0.0/js/anychart-base.min.js"></script>
+</head>
+<body>
+<!-- header -->
+<div class="empty-shap">
+    <div class="nigga">
+            <img src="assets/img/logo.svg">
+
+        <div class="list-main">
+            <ul class="ul-shap">
+                <li class="li-shap">Product</li>
+                <li class="li-shap">Benefit</li>
+                <li class="li-shap">How it Works</li>
+                <li class="li-shap">Pricing</li>
+                <li class="li-shap">Company</li>
+            </ul>
+        </div>
+
+        <div class="shap-right">
+            <button id="shap-login">Login</button>
+            <button id="shap-getdemo">Get Demo</button>
+        </div>  
+    </div>
+</div>
+
+<!-- Site main container -->
+<div class="container">
+
+    <!-- main-page-text -->
+    <div class="main-page-text">
+        <h2 class="main-page-h2"> All your bussiness<br>
+            expenses in one place.</p>
+        <h4  class="main-page-h4">Your one-stop finance empower platform.<br>
+            Manage all your business expenses with our supafast app.</h4>
+
+            <div class="main-page-buttons">
+                <button id="shap-getdemo1">Get a Free Demo</button>
+                <button id="shap-getPricing">See Pricing</button>
+            </div>
+    </div>
+
+    <div class="parashia">
+
+        <!-- Main Menu -->
+        <div class="parasha-left-menu">
+            
+            <div class="parasha-logo">
+                <img src="assets/img/parasha-logo.svg">
+            </div>
+
+            <div class="parasha-menu">
+                <h5 class="parasha-h">Main Menu</h5>
+                <ul class="parasha-ul">
+                    <li class="parasha-li-selected"><img src="assets/img/home.svg" id="img-parasha">Dashboard</li>
+                    <li class="parasha-li"><img src="assets/img/status-up1.svg" id="img-parasha">Insight</li>
+                    <li class="parasha-li"><img src="assets/img/document-text.svg" id="img-parasha">Invoices</li>
+                    <li class="parasha-li"><img src="assets/img/box.svg" id="img-parasha">Products</li>
+                    <li class="parasha-li"><img src="assets/img/empty-wallet-change.svg" id="img-parasha">Reimburse</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="parashia-right-side">
+            <!-- Top Bar -->
+            <div class="parasha-top-bar">
+
+                <div class="parasha-search-bar">
+                    <input type="text" class="search-bar" placeholder="Search something here">
+                </div>
+
+                <div class="parasha-notification">
+                    <button id="notif">
+                        <img src="assets/img/Notif.svg">
+                    </button>
+                </div>
+
+                <div class="parasha-login">
+
+                        <div class="userNamePic">
+                            <img src="assets/img/UsernamePic.svg">
+                        </div>
+
+                        <div class="userNameAutorization">
+                            <span class="userNameLogin">Bodya Flexike</span>
+                        </div>
+
+                        <div class="more-option">
+                            <img src="assets/img/arrow-down.svg">
+                        </div>
+                </div>
+            </div>
+
+            <!-- Main Page Info -->
+            <div class="main-page-info">
+
+                <!-- left side | Spending Statistick -->
+                <div class="left-side-stats">
+
+                    <div class="statistic-topbar">
+                        <h2 class="stats-h2">Spending Statistics</h2>
+                        <div class="stats-year">
+                            <button id="left-arrow-btn"><img src="assets/img/leftarrow.svg"></button>
+                                <p id="year-st">2022</p>
+                            <button id="right-arrow-btn"><img src="assets/img/rightarrow.svg"></button>
+                        </div>
+                    </div>
+
+                    <div id="stats-diagram">
+                    </div>
+
+
+                </div>
+
+                <!-- right side | Your Balance -->
+                <div class="right-side-balance">
+
+                    <div class="balance-topbar">
+                        <h2 class="stats-h2">Your balance</h2>
+                        <button id="more-btn"><img src="assets/img/more.svg"></button>
+                    </div>
+
+                    <div class="balance-ownCash">
+                        <p id="money">$1,000,000.00<span id="valute">( USD )</span></p>
+                    </div>
+
+                    <div class="balance-date">
+                        <p id="date">From Jan 01, 2022 to Jan 31, 2022</p>
+                    </div>
+
+                    <div class="balance-buttons">
+                        <button id="balance-topUp">
+                         <img src="assets/img/money-recive.svg" id="moneyRecieveIC">Top Up
+                        </button>
+                        <button id="balance-Transfer">
+                         <img src="assets/img/money-send.svg" id="moneySendIC">Transfer
+                        </button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
